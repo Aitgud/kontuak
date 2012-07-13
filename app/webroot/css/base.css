@@ -1,0 +1,122 @@
+body {
+    background: #003d4c;
+    color: #fff;
+    font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+    font-size:100%;
+    margin: 0;
+}
+
+h1 {font-size: 2em; text-align: right;}
+h2 {font-size:100%; font-weight:bold;}
+
+a {
+    color: #003d4c;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:hover {
+    color: #367889;
+    text-decoration:none;
+}
+h1, h2, h3, h4 {
+    font-weight: normal;
+    margin-bottom:0.5em;
+}
+h1 {
+    background:#fff;
+    color: #003d4c;
+    font-size: 100%;
+}
+h2 {
+    background:#fff;
+    color: #e32;
+    font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
+    font-size: 190%;
+}
+h3 {
+    color: #2c6877;
+    font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
+    font-size: 165%;
+}
+h4 {
+    color: #993;
+    font-weight: normal;
+}
+
+#container {margin:0 2%;}
+#header {padding: 1em 0; position:relative;}
+#header menu {background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
+    border-radius: 0 0 1em 1em;
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 0.5em 2em;
+    position: absolute;
+    right: 0;
+    top: 0;}
+#header menu #new_movement {font-size:1.4em;}
+#header a {color: #FFFFFF; text-decoration: none;}
+#header menu li {display:inline; margin:0 1.5em;}
+#website-name {float:left;}
+#website-name a {font-size: 1.3em;}
+#content {border-radius:0.3em;}
+input.label {color: #bbb;}
+
+
+#page-title {height:3em;}
+#page-title h1 {display:block; float:right;}
+#crumbs {float:right;}
+#crumbs li {float:left;}
+
+.button-list {
+    list-style:none;
+    margin: 0;
+}
+.button-list li {
+    margin:0;
+}
+.button-list .button {
+    font-size: 1.5em;
+    padding-left:2.5em;
+    margin:0.5em 0em;
+    display:block;
+}
+.button {
+    display:block;
+    background: -moz-linear-gradient(center top , #FEFEFE, #DCDCDC) repeat scroll 0 0 #DCDCDC;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: #333333;
+    font-weight: normal;
+    min-width: 0;
+    padding: 0.5em 10%;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+    margin: 0;
+    witdh: 80%;
+}
+.button a {
+    text-decoration:none;
+}
+
+#accounts-filter {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    margin: 2em 0;
+    padding: 1em;
+}
+#accounts-filter div.input{
+    padding:0;
+    margin-bottom: 0.1em;
+}
+#accounts-filter div.input:hover{
+    background: none repeat scroll 0 0 #EEFFFF;
+}
+#accounts-filter div.input label {
+    display:block;
+    width:100%;
+    padding:0.2em 0.5em;
+}
+#accounts-filter div.input input[type=checkbox]{
+    margin: 7px 6px 7px 2px
+}
